@@ -1,6 +1,6 @@
 import sys
 import argparse
-from client import CLIHelperClient
+from altcli_helper.client import CLIHelperClient
 
 cli_helper = CLIHelperClient()
 
