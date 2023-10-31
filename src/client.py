@@ -24,7 +24,7 @@ class CLIHelperClient:
         rationale = CLIHelperClient.get_llm_response(text, SYSTEM_LOGIC)
         commands = CLIHelperClient.get_llm_response(rationale, SYSTEM_SELECT).split(";")
 
-        return commands
+        return (rationale, commands)
 
     @staticmethod
     def get_llm_response(text, system):

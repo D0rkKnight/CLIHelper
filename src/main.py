@@ -18,7 +18,11 @@ def main():
     args = parser.parse_args()
 
     if args.show_rationale:
-        commands = cli_helper.ask_for_command(args.question)
+        rationale, commands = cli_helper.ask_for_command(args.question)
+
+        print("Rationale:")
+        print(rationale)
+
         print("Commands recommended:")
         for command in commands:
             print(command)
