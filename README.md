@@ -134,7 +134,3 @@ For any inquiries or issues, please contact D0rkKnight at [shouhanzen@gmail.com]
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-The README provides a concise yet comprehensive guide on how to install and use CLIHelper, including both basic command generation and command generation with rationale functionalities. It also includes contact information for support. Make sure to include an actual LICENSE file in your project if you mention it in the README.
